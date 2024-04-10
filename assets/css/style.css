@@ -1,0 +1,127 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --third-color: #e74c3c;
+  
+    --pad-xs: 5px;
+    --pad-sm: 10px;
+    --pad: 15px;
+    --pad-x: 20px;
+  }
+
+.templify-builder-container {
+
+padding:50px;
+}
+.templify-builder-header {
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  width: 65%;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-container {
+  margin: 0 auto;
+  width: 25%;
+}
+
+.templify-h3 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.templify-nav {
+  margin: 0 auto;
+}
+
+.templify-ul {
+  display: flex; /* Change to "block" for vertical navigation */
+  list-style: none;
+  width:100%;
+  justify-content: space-between; /* Space out links evenly */
+}
+
+.templify-ul>li.active{
+
+  width:33%;
+  background-color: #000;
+  text-align:center;
+  padding:10px;
+}
+
+.templify-ul>li{
+ 
+  background-color: #fff;
+  text-align:center;
+  padding:10px;
+  width:33%;
+}
+
+
+.templify-ul>li.active>a {
+  font-size: 16px;
+  text-decoration: none;
+  text-align:center;
+  color:#fff;
+  transition: color 0.2s ease-in-out;
+}
+
+.templify-ul>li>a {
+  font-size: 16px;
+  text-decoration: none;
+  text-align:center;
+  color:#000;
+  transition: color 0.2s ease-in-out;
+}
+
+.templify-ul>li>a:hover {
+  color: #333;
+}
+
+.templify-builder-content {
+ 
+  padding: 20px;
+  margin-top: 20px; /* Add space between header and content */
+}
+
+.templify-form {
+  display: flex;
+  flex-direction: column; /* Stack input fields vertically */
+  margin: 0 auto;
+  width: 50%; /* Adjust width as needed */
+}
+
+.templify-label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+  margin-top:10px;
+}
+
+.templify-input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 14px;
+
+  margin-bottom: 5px;
+  margin-top:10px;
+}
+
+.templify-button {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  margin-top:20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease
+}  
