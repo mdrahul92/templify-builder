@@ -2,7 +2,6 @@
     --primary-color: #3498db;
     --secondary-color: #2ecc71;
     --third-color: #e74c3c;
-  
     --pad-xs: 5px;
     --pad-sm: 10px;
     --pad: 15px;
@@ -16,13 +15,10 @@
 }
 .templify-builder-header {
   background-color: #ffffff;
-
-
 padding:50px;
 }
 .templify-builder-header {
   background-color: #f0f0f0;
-
   margin: 0 auto;
   width: 65%;
   background-size: cover;
@@ -54,7 +50,6 @@ padding:50px;
 }
 
 .templify-ul>li.active{
-
   width:33%;
   background-color: #000;
   text-align:center;
@@ -91,7 +86,6 @@ padding:50px;
 }
 
 .templify-builder-content {
- 
   padding: 20px;
   margin-top: 20px; /* Add space between header and content */
 }
@@ -123,6 +117,8 @@ background: #f4f2f2;
   border: 1px solid #ccc;
   padding: 5px;
   font-size: 14px;
+
+
   margin-bottom: 5px;
   margin-top:10px;
 }
@@ -139,10 +135,8 @@ background: #f4f2f2;
   cursor: pointer;
   transition: background-color 0.2s ease
 }  
-
-
 .btn-sm{
-  width:27%
+  width:27%;
 }
 
 .templify-builder-header {
@@ -215,6 +209,7 @@ background: #f4f2f2;
 .plugins-list li span {
   margin-left: 10px;
 }
+
 .dropdown-btn {
   background: none;
   border: none;
@@ -318,3 +313,5 @@ height: 60px;
 .configure-container ul li span{
   font-weight:400;
 }
+
+

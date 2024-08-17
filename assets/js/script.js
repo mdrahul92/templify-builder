@@ -1,13 +1,25 @@
 jQuery(document).ready(function($) {
-    $('.tab-link').on('click', function() {
-        var tabId = $(this).data('tab');
-        
-        $('.tab-link').removeClass('active');
-        $(this).addClass('active');
-        
-        $('.tab-content').removeClass('active');
-        $('#' + tabId).addClass('active');
-    });
+// Hide all tab content except the first one by default
+$('.tab-content').hide();
+$('.tab-content:first').show();
+
+// Add click event listener to tab links
+$('.tab-link').click(function(e) {
+    e.preventDefault(); // Prevent default link behavior
+
+    // Remove active class from all tabs
+    $('.tab-link').removeClass('active');
+
+    // Add active class to the clicked tab
+    $(this).addClass('active');
+
+    // Hide all tab content
+    $('.tab-content').hide();
+
+    // Show the selected tab content
+    var tabID = $(this).data('tab');
+    $('#' + tabID).show();
+});
 
     // Check URL and Key inputs and update button text
     function checkInputs() {
