@@ -1,0 +1,307 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --third-color: #e74c3c;
+  
+    --pad-xs: 5px;
+    --pad-sm: 10px;
+    --pad: 15px;
+    --pad-x: 20px;
+  }
+
+.templify-builder-container {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding:50px;
+}
+.templify-builder-header {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 65%;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-container {
+  margin: 0 auto;
+  width: 25%;
+}
+
+.templify-h3 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.templify-nav {
+  margin: 0 auto;
+}
+
+.templify-ul {
+  display: flex; /* Change to "block" for vertical navigation */
+  list-style: none;
+  width:100%;
+  justify-content: space-between; /* Space out links evenly */
+}
+
+.templify-ul>li.active{
+
+  width:33%;
+  background-color: #000;
+  text-align:center;
+  padding:10px;
+}
+
+.templify-ul>li{
+ 
+  background-color: #f4f2f2;
+  text-align:center;
+  padding:10px;
+  width:33%;
+}
+
+
+.templify-ul>li.active>a {
+  font-size: 16px;
+  text-decoration: none;
+  text-align:center;
+  color:#fff;
+  transition: color 0.2s ease-in-out;
+}
+
+.templify-ul>li>a {
+  font-size: 16px;
+  text-decoration: none;
+  text-align:center;
+  color:#000;
+  transition: color 0.2s ease-in-out;
+}
+
+.templify-ul>li>a:hover {
+  color: #333;
+}
+
+.templify-builder-content {
+ 
+  padding: 20px;
+  margin-top: 20px; /* Add space between header and content */
+}
+
+.templify-form {
+  display: flex;
+  flex-direction: column; /* Stack input fields vertically */
+  margin: 0 auto;
+  width: 50%; /* Adjust width as needed */
+}
+
+.templify-label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+  margin-top:10px;
+}
+
+.templify-input[type="text"] {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+background: #f4f2f2;
+  margin-bottom: 5px;
+  margin-top:10px;
+}
+
+.templify-button {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  margin-top:20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease
+}  
+
+.btn-sm{
+  width:27%
+}
+
+.templify-builder-header {
+  background: #ffffff;
+  border:#ccc;
+  padding: 10px;
+}
+
+.logo-container img {
+  max-width: 150px;
+}
+
+.templify-h3 {
+  margin: 10px 0;
+}
+
+.templify-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+
+.templify-nav .active a {
+  font-weight: bold;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.templify-form {
+  margin: 20px 0;
+  text-align: center;
+  padding: 0px 24%;
+}
+.configure-container, .update-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.configure-section {
+  width: 48%;
+}
+
+.configure-section h4{
+  text-align:center;
+  background:#f4f2f2;
+  border: 1px solid #ccc;
+}
+
+.plugins-list {
+  list-style: none;
+  padding: 0;
+}
+
+.plugins-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.plugins-list li span {
+  margin-left: 10px;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.configure-container, .update-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.configure-section, .update-section, .changelog-section {
+  width: 48%;
+}
+
+.configure-section form,.configure-section ul{
+  background:#fff;
+  border:1px solid #ccc;
+  padding:20px
+}
+.templify-input, .templify-textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background:#f4f2f2;
+}
+.inputrow{
+  display:flex
+}
+.templify-label{
+width:30%;
+font-weight:600;
+margin-top:21px;
+
+}
+.templify-forminput {
+  width: 65%;
+  padding: 10px;
+  height:40px;
+  margin: 10px 0;
+  border: none !important;
+  background:#f4f2f2 !important;
+}
+.configure-container h4{
+  background:#f4f2f2;
+  padding:10px;
+}
+
+.update-container h4{
+  padding:10px;
+  color:#000;
+  font-weight:bold;
+  font-size:20px
+}
+
+.border-row{
+  display:flex;
+  border:1px solid #ccc;
+  padding: 15px;
+  justify-content: space-between;
+  font-weight: 600;
+color:#000;
+}
+
+.border-listrow{
+  display:flex;
+  border:1px solid #ccc;
+  padding: 15px;
+  justify-content: space-between;
+  font-weight: 600;
+color:#000;
+height: 60px;
+}
+.configure-container, .changelog-container, .help-container {
+  margin-top: 20px;
+}
+
+.configure-container h4, .changelog-container h4, .help-container h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.configure-container ul, .changelog-container ul, .help-container ol {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom:0px;
+}
+
+.configure-container ul li, .changelog-container ul li, .help-container ol li {
+  padding: 17px 13px;
+    border-bottom: 1px solid #ccc;
+    font-weight: 600;
+    color: #000;
+    margin-bottom:0px;
+}
+
+.configure-container ul li span{
+  font-weight:400;
+}
