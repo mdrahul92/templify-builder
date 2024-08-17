@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <div class="templify-builder-container">
     <div class="templify-builder-header">
@@ -15,7 +15,7 @@
                 <li class="tab-link" data-tab="tab2"><a href="#">Configure</a></li>
                 <li class="tab-link" data-tab="tab3"><a href="#">Update</a></li>
                 <li class="tab-link" data-tab="tab4"><a href="#">Help</a></li>
-=======
+
 <div class="templify-builder-container">
 
     <div class="templify-builder-header">
@@ -33,13 +33,13 @@
                 <li><a href="#">Configure</a></li>
                 <li><a href="#">Update</a></li>
                 <li><a href="#">Help</a></li>
->>>>>>> origin/master
+
             </ul>
         </nav>
     </div>
 
     <div class="templify-builder-content">
-<<<<<<< HEAD
+
         <div id="tab1" class="tab-content active">
             <form action="#" class="templify-form">
                 <input class="templify-input" type="text" id="templify-core-url" name="templify-core-url" placeholder="Enter Your Templify Core URL">
@@ -132,12 +132,12 @@
                 </ol>
             </div>
         </div>
-=======
+
         <form action="#" class="templify-form">
             <input class="templify-input" type="text" id="templify-core-url" name="templify-core-url" placeholder="Enter Your Templify Core URL">
             <input  class="templify-input" type="text" id="templify-core-key" name="templify-core-key" placeholder="Enter Templify Core Key">
             <button class="templify-button" type="submit">Link With Templify Core</button>
         </form>
->>>>>>> origin/master
+
     </div>
 </div>
