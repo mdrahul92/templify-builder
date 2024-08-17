@@ -131,8 +131,7 @@
                     <li>How to import Templify Template?</li>
                 </ol>
             </div>
-        </div>
-
+</div>
         <form action="#" class="templify-form">
             <input class="templify-input" type="text" id="templify-core-url" name="templify-core-url" placeholder="Enter Your Templify Core URL">
             <input  class="templify-input" type="text" id="templify-core-key" name="templify-core-key" placeholder="Enter Templify Core Key">

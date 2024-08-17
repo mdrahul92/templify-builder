@@ -58,7 +58,6 @@ function templify_builder_add_menu() {
         30                             // Position
     );
     
-
     add_submenu_page(
         'templify-builder',             // Parent slug
         'Templify Builder',             // Page title
@@ -66,8 +65,6 @@ function templify_builder_add_menu() {
         'manage_options',               // Capability
         'templify-builder',             // Menu slug
         'templify_builder_main_page',   // Callback function
-
-
     );
 
     add_submenu_page(

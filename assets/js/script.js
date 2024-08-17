@@ -9,7 +9,6 @@ jQuery(document).ready(function($) {
         $('#' + tabId).addClass('active');
     });
 
-
     // Check URL and Key inputs and update button text
     function checkInputs() {
         var url = $('#templify-core-url').val();
@@ -22,6 +21,7 @@ jQuery(document).ready(function($) {
         }
     }
 
+
     // Initial check on page load
     checkInputs();
 
@@ -29,6 +29,7 @@ jQuery(document).ready(function($) {
     $('#templify-core-url, #templify-core-key').on('keyup', function() {
         checkInputs();
     });
+
 
     $('#templify-form').on('submit', function(e) {
         e.preventDefault(); // Prevent the default form submission
