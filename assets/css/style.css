@@ -10,12 +10,20 @@
   }
 
 .templify-builder-container {
+<<<<<<< HEAD
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     padding:50px;
 }
 .templify-builder-header {
   background-color: #ffffff;
+=======
+
+padding:50px;
+}
+.templify-builder-header {
+  background-color: #f0f0f0;
+>>>>>>> origin/master
   margin: 0 auto;
   width: 65%;
   background-size: cover;
@@ -56,7 +64,11 @@
 
 .templify-ul>li{
  
+<<<<<<< HEAD
   background-color: #f4f2f2;
+=======
+  background-color: #fff;
+>>>>>>> origin/master
   text-align:center;
   padding:10px;
   width:33%;
@@ -105,11 +117,19 @@
 
 .templify-input[type="text"] {
   width: 100%;
+<<<<<<< HEAD
   height: 45px;
   border: 1px solid #ccc;
   padding: 10px;
   font-size: 14px;
 background: #f4f2f2;
+=======
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 14px;
+
+>>>>>>> origin/master
   margin-bottom: 5px;
   margin-top:10px;
 }
@@ -126,6 +146,7 @@ background: #f4f2f2;
   cursor: pointer;
   transition: background-color 0.2s ease
 }  
+<<<<<<< HEAD
 
 .btn-sm{
   width:27%
@@ -305,3 +326,5 @@ height: 60px;
 .configure-container ul li span{
   font-weight:400;
 }
+=======
+>>>>>>> origin/master

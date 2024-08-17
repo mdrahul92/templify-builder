@@ -14,6 +14,7 @@ function templify_builder_enqueue_scripts() {
     // Enqueue plugin scripts
     wp_enqueue_style('templify-builder-style', plugins_url('assets/css/style.css', __FILE__));
     wp_enqueue_script('templify-builder-script', plugins_url('assets/js/script.js', __FILE__), array('jquery'), '1.0', true);
+<<<<<<< HEAD
  
     // Localize script with API URL and nonce
  wp_localize_script('templify-builder-script', 'wpApiSettings', array(
@@ -21,6 +22,8 @@ function templify_builder_enqueue_scripts() {
     'nonce' => wp_create_nonce('wp_rest')
 ));
 
+=======
+>>>>>>> origin/master
 }
 add_action('admin_enqueue_scripts', 'templify_builder_enqueue_scripts');
 
@@ -49,19 +52,32 @@ function templify_builder_add_menu() {
         'Templify Builder',            // Menu title
         'manage_options',              // Capability
         'templify-builder',            // Menu slug
+<<<<<<< HEAD
         '',                             // Callback function
+=======
+        '',  // Callback function
+>>>>>>> origin/master
         'dashicons-layout',            // Icon URL or Dashicons class
         30                             // Position
     );
     
 
     add_submenu_page(
+<<<<<<< HEAD
         'templify-builder',             // Parent slug
         'Templify Builder',             // Page title
         'Templify Builder',             // Menu title
         'manage_options',               // Capability
         'templify-builder',             // Menu slug
         'templify_builder_main_page'    // Callback function
+=======
+        'templify-builder',            // Parent slug
+        'Templify Builder',   // Page title
+        'Templify Builder',                    // Menu title
+        'manage_options',              // Capability
+        'templify-builder',   // Menu slug
+        'templify_builder_main_page' // Callback function
+>>>>>>> origin/master
     );
 
     add_submenu_page(
@@ -86,6 +102,7 @@ function templify_builder_settings_page() {
     // Settings page content here
     echo '<h1>Settings Page</h1>';
 }
+<<<<<<< HEAD
 
 
 
@@ -335,3 +352,5 @@ function templify_fetch_plugin_list(WP_REST_Request $request) {
     }
 }
 
+=======
+>>>>>>> origin/master
